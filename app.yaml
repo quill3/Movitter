@@ -1,0 +1,18 @@
+application: movie-twitter
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+- url: /images
+  static_dir: images
+- url: /get_movie_title
+  script: get_movie_title.py
+  login: admin
+- url: /get_tweet
+  script: get_tweet.py
+  login: admin
+- url: /.*
+  script: mainpage.py

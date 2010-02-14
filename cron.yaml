@@ -1,0 +1,7 @@
+cron:
+- description: get_movie_title
+  url: /get_movie_title
+  schedule: every 24 hours
+- description: get_tweet
+  url: /get_tweet
+  schedule: every 6 minutes
