@@ -1,8 +1,11 @@
 body {
+   background-color: #00BFFF;
+}
+
+.content {
    width: 800px;
    margin-left: auto;
    margin-right: auto;
-   background-color: #00BFFF;
 }
 
 .logo {
@@ -15,6 +18,7 @@ body {
    width: 320px ;
  	 font-size: 100%;
    color: #00BFFF;
+   text-align: center;
 }
 .title a:link,
 .title a:hover,
@@ -27,6 +31,7 @@ body {
    margin-top: 35px;
    margin-left: 320px;
    font-size: 75%;
+   text-align: left;
 }
 .chartgood {color: #228B22;}
 .chartbad {color: #ff0000;}

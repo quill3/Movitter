@@ -14,6 +14,8 @@ print '''<html>
 <link type="text/css" rel="stylesheet" href="stylesheets/mainpage.css" />
 </head>
 <body>
+<div style="text-align:center;">
+<div class="content">
 
 <div class="roundedcornr_box_621317">
 <div class="roundedcornr_top_621317"><div></div></div>
@@ -56,6 +58,9 @@ This service is created by <a href="http://d.hatena.ne.jp/quill3/" target="_blan
 
 </div>
 <div class="roundedcornr_bottom_621317"><div></div></div>
+</div>
+
+</div>
 </div>
 
 <script type="text/javascript">
